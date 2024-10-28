@@ -1,0 +1,34 @@
+Title,Description,Labels
+Add Initial Files,"Branch this issue. Add files to repo. Contents can be found at [the source GitHub repo](https://github.com/mgmt-59000-devops/azure_python_function_app_start)
+
+/label ~setup",
+Add Azure Resources,"Create a new Resource Group in the Azure web interface
+
+/label ~setup ~azure"
+Create Azure Service Principal,"Create a new Service Principal (fake user) in the Azure web interface
+
+/label ~setup ~azure"
+Store secure values for variables,"In a separate text document, store the values for the following:
+
+AZURE_FUNCTION_APP_NAME:
+
+AZURE_RESOURCE_GROUP:
+
+AZURE_CLIENT_ID:
+
+AZURE_CLIENT_SECRET:
+
+AZURE_TENANT_ID:
+
+Note that you should **never** store these in your repository outside of the settings pane.
+
+/label ~setup ~azure"
+Create Azure Function,"Create a new Function App in the Azure web interface
+
+/label ~setup ~azure"
+Create Pipeline File (Build),"In the GitLab interface, branch this issue and create a new `.gitlab-ci.yml` file.
+
+/label ~pipeline"
+Update Pipeline File (Deploy),"In the GitLab interface, branch this issue and add deploy commands to the `.gitlab-ci.yml` file.
+
+/label ~pipeline"
