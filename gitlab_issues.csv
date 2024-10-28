@@ -10,15 +10,17 @@ Create Azure Service Principal,"Create a new Service Principal (fake user) in th
 /label ~setup ~azure"
 Store secure values for variables,"In a separate text document, store the values for the following:
 
-AZURE_FUNCTION_APP_NAME:
+AZURE_SUBSCRIPTION_ID: 
+
+AZURE_TENANT_ID:
 
 AZURE_RESOURCE_GROUP:
+
+AZURE_FUNCTION_APP_NAME:
 
 AZURE_CLIENT_ID:
 
 AZURE_CLIENT_SECRET:
-
-AZURE_TENANT_ID:
 
 Note that you should **never** store these in your repository outside of the settings pane.
 
